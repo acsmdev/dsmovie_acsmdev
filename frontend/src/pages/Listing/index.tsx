@@ -1,5 +1,7 @@
-export function Listing(){
-    return(
-        <h1>Página de Listagem</h1>
+import { Pagination } from "components/Pagination";
+
+export function Listing() {
+    return (
+        <Pagination />
     );
 }
